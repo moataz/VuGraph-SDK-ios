@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2DBC6DC15C302C500B7C282 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DBC6DB15C302C500B7C282 /* Foundation.framework */; };
+		C2DBC6E215C302C500B7C282 /* VufindAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DBC6E115C302C500B7C282 /* VufindAPI.m */; };
+		C2DBC6EA15C302C500B7C282 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DBC6E915C302C500B7C282 /* SenTestingKit.framework */; };
+		C2DBC6EC15C302C500B7C282 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DBC6EB15C302C500B7C282 /* UIKit.framework */; };
+		C2DBC6ED15C302C500B7C282 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DBC6DB15C302C500B7C282 /* Foundation.framework */; };
+		C2DBC6F015C302C500B7C282 /* libVufindAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DBC6D815C302C500B7C282 /* libVufindAPI.a */; };
+		C2DBC6F615C302C500B7C282 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2DBC6F415C302C500B7C282 /* InfoPlist.strings */; };
+		C2DBC6F915C302C600B7C282 /* VufindAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DBC6F815C302C600B7C282 /* VufindAPITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2DBC6EE15C302C500B7C282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2DBC6CF15C302C500B7C282 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2DBC6D715C302C500B7C282;
+			remoteInfo = VufindAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2DBC6D815C302C500B7C282 /* libVufindAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVufindAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2DBC6DB15C302C500B7C282 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2DBC6DF15C302C500B7C282 /* VufindAPI-Prefix.pch */ = {isa = PBXFileReference; path = "VufindAPI-Prefix.pch"; sourceTree = "<group>"; };
+		C2DBC6E015C302C500B7C282 /* VufindAPI.h */ = {isa = PBXFileReference; path = VufindAPI.h; sourceTree = "<group>"; };
+		C2DBC6E115C302C500B7C282 /* VufindAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VufindAPI.m; sourceTree = "<group>"; };
+		C2DBC6E815C302C500B7C282 /* VufindAPITests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VufindAPITests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2DBC6E915C302C500B7C282 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C2DBC6EB15C302C500B7C282 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C2DBC6F315C302C500B7C282 /* VufindAPITests-Info.plist */ = {isa = PBXFileReference; path = "VufindAPITests-Info.plist"; sourceTree = "<group>"; };
+		C2DBC6F515C302C500B7C282 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2DBC6F715C302C600B7C282 /* VufindAPITests.h */ = {isa = PBXFileReference; path = VufindAPITests.h; sourceTree = "<group>"; };
+		C2DBC6F815C302C600B7C282 /* VufindAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VufindAPITests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2DBC6D515C302C500B7C282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2DBC6DC15C302C500B7C282 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2DBC6E415C302C500B7C282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2DBC6EA15C302C500B7C282 /* SenTestingKit.framework in Frameworks */,
+				C2DBC6EC15C302C500B7C282 /* UIKit.framework in Frameworks */,
+				C2DBC6ED15C302C500B7C282 /* Foundation.framework in Frameworks */,
+				C2DBC6F015C302C500B7C282 /* libVufindAPI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2DBC6CD15C302C500B7C282 = {
+			isa = PBXGroup;
+			children = (
+				C2DBC6DD15C302C500B7C282 /* VufindAPI */,
+				C2DBC6F115C302C500B7C282 /* VufindAPITests */,
+				C2DBC6DA15C302C500B7C282 /* Frameworks */,
+				C2DBC6D915C302C500B7C282 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2DBC6D915C302C500B7C282 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2DBC6D815C302C500B7C282 /* libVufindAPI.a */,
+				C2DBC6E815C302C500B7C282 /* VufindAPITests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2DBC6DA15C302C500B7C282 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2DBC6DB15C302C500B7C282 /* Foundation.framework */,
+				C2DBC6E915C302C500B7C282 /* SenTestingKit.framework */,
+				C2DBC6EB15C302C500B7C282 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2DBC6DD15C302C500B7C282 /* VufindAPI */ = {
+			isa = PBXGroup;
+			children = (
+				C2DBC6E015C302C500B7C282 /* VufindAPI.h */,
+				C2DBC6E115C302C500B7C282 /* VufindAPI.m */,
+				C2DBC6DE15C302C500B7C282 /* Supporting Files */,
+			);
+			path = VufindAPI;
+			sourceTree = "<group>";
+		};
+		C2DBC6DE15C302C500B7C282 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2DBC6DF15C302C500B7C282 /* VufindAPI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2DBC6F115C302C500B7C282 /* VufindAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2DBC6F715C302C600B7C282 /* VufindAPITests.h */,
+				C2DBC6F815C302C600B7C282 /* VufindAPITests.m */,
+				C2DBC6F215C302C500B7C282 /* Supporting Files */,
+			);
+			path = VufindAPITests;
+			sourceTree = "<group>";
+		};
+		C2DBC6F215C302C500B7C282 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2DBC6F315C302C500B7C282 /* VufindAPITests-Info.plist */,
+				C2DBC6F415C302C500B7C282 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C2DBC6D615C302C500B7C282 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C2DBC6D715C302C500B7C282 /* VufindAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2DBC6FC15C302C600B7C282 /* Build configuration list for PBXNativeTarget "VufindAPI" */;
+			buildPhases = (
+				C2DBC6D415C302C500B7C282 /* Sources */,
+				C2DBC6D515C302C500B7C282 /* Frameworks */,
+				C2DBC6D615C302C500B7C282 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VufindAPI;
+			productName = VufindAPI;
+			productReference = C2DBC6D815C302C500B7C282 /* libVufindAPI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C2DBC6E715C302C500B7C282 /* VufindAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2DBC6FF15C302C600B7C282 /* Build configuration list for PBXNativeTarget "VufindAPITests" */;
+			buildPhases = (
+				C2DBC6E315C302C500B7C282 /* Sources */,
+				C2DBC6E415C302C500B7C282 /* Frameworks */,
+				C2DBC6E515C302C500B7C282 /* Resources */,
+				C2DBC6E615C302C500B7C282 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2DBC6EF15C302C500B7C282 /* PBXTargetDependency */,
+			);
+			name = VufindAPITests;
+			productName = VufindAPITests;
+			productReference = C2DBC6E815C302C500B7C282 /* VufindAPITests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2DBC6CF15C302C500B7C282 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C2DBC6D215C302C500B7C282 /* Build configuration list for PBXProject "VufindAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2DBC6CD15C302C500B7C282;
+			productRefGroup = C2DBC6D915C302C500B7C282 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2DBC6D715C302C500B7C282 /* VufindAPI */,
+				C2DBC6E715C302C500B7C282 /* VufindAPITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2DBC6E515C302C500B7C282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2DBC6F615C302C500B7C282 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C2DBC6E615C302C500B7C282 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2DBC6D415C302C500B7C282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2DBC6E215C302C500B7C282 /* VufindAPI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2DBC6E315C302C500B7C282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2DBC6F915C302C600B7C282 /* VufindAPITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2DBC6EF15C302C500B7C282 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2DBC6D715C302C500B7C282 /* VufindAPI */;
+			targetProxy = C2DBC6EE15C302C500B7C282 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2DBC6F415C302C500B7C282 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2DBC6F515C302C500B7C282 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2DBC6FA15C302C600B7C282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2DBC6FB15C302C600B7C282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2DBC6FD15C302C600B7C282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/VufindAPI.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VufindAPI/VufindAPI-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C2DBC6FE15C302C600B7C282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/VufindAPI.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VufindAPI/VufindAPI-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C2DBC70015C302C600B7C282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VufindAPI/VufindAPI-Prefix.pch";
+				INFOPLIST_FILE = "VufindAPITests/VufindAPITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C2DBC70115C302C600B7C282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VufindAPI/VufindAPI-Prefix.pch";
+				INFOPLIST_FILE = "VufindAPITests/VufindAPITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2DBC6D215C302C500B7C282 /* Build configuration list for PBXProject "VufindAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2DBC6FA15C302C600B7C282 /* Debug */,
+				C2DBC6FB15C302C600B7C282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2DBC6FC15C302C600B7C282 /* Build configuration list for PBXNativeTarget "VufindAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2DBC6FD15C302C600B7C282 /* Debug */,
+				C2DBC6FE15C302C600B7C282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2DBC6FF15C302C600B7C282 /* Build configuration list for PBXNativeTarget "VufindAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2DBC70015C302C600B7C282 /* Debug */,
+				C2DBC70115C302C600B7C282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2DBC6CF15C302C500B7C282 /* Project object */;
+}
