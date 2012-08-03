@@ -3,7 +3,7 @@
 //  VuGraphSDK
 //
 //  Created by Doaa Anwar on 12-08-01.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 Vufind Inc. All rights reserved.
 //
 
 #import "VugraphExample.h"
@@ -17,8 +17,8 @@
         // Initialization code here.
       
     
-        appKey = @"<your application key here>"; 
-        secretKey = @"<your application secret key here>";        
+        appKey = @"_my_app_key_"; 
+        secretKey = @"_my_app_secret_";        
         
         userID = @""; //your user unique ID
         

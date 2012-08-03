@@ -5,3 +5,7 @@
 #ifdef __OBJC__
     #import <Foundation/Foundation.h>
 #endif
+
+
+#define VU_APP_KEY    @"_my_app_key_"
+#define VU_SECRET_KEY @"_my_app_secret_"
