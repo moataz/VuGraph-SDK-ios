@@ -7,7 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#include "VugraphAPI.h"
 
 @interface VugraphExample : NSObject
+{
+    NSString *appKey;
+    NSString *secretKey;
+    NSString *userID;
+    NSString *token;
+    VugraphAPI *vugraphInst;
+}
+
+- (void) callVugraphAPI;
 
 @end

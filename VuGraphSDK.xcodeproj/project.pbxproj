@@ -7,14 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C23710B915C980D4004EFD4D /* VugraphAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = C23710B715C980D4004EFD4D /* VugraphAPI.h */; };
+		C23710BA15C980D4004EFD4D /* VugraphAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C23710B815C980D4004EFD4D /* VugraphAPI.m */; };
+		C23710BD15C980EF004EFD4D /* VuGraphSDK-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = C23710BC15C980EF004EFD4D /* VuGraphSDK-Prefix.pch */; };
+		C23710C015C98114004EFD4D /* VugraphAPITests.h in Headers */ = {isa = PBXBuildFile; fileRef = C23710BE15C98114004EFD4D /* VugraphAPITests.h */; };
+		C23710C915C985C1004EFD4D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DBC6E915C302C500B7C282 /* SenTestingKit.framework */; };
+		C24CE97F15C986A7006DAF1A /* VugraphAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C23710BF15C98114004EFD4D /* VugraphAPITests.m */; };
+		C24CE98715C9B9F4006DAF1A /* VugraphExample.h in Headers */ = {isa = PBXBuildFile; fileRef = C24CE98515C9B9F4006DAF1A /* VugraphExample.h */; };
+		C24CE98815C9B9F4006DAF1A /* VugraphExample.m in Sources */ = {isa = PBXBuildFile; fileRef = C24CE98615C9B9F4006DAF1A /* VugraphExample.m */; };
+		C26A9A2D15C7059E00057AD4 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = C26A9A2015C7059E00057AD4 /* SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C26A9A2E15C7059E00057AD4 /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = C26A9A2115C7059E00057AD4 /* SBJsonWriter.h */; };
+		C26A9A2F15C7059E00057AD4 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C26A9A2215C7059E00057AD4 /* SBJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C26A9A3015C7059E00057AD4 /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = C26A9A2315C7059E00057AD4 /* SBJsonParser.h */; };
+		C26A9A3115C7059E00057AD4 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C26A9A2415C7059E00057AD4 /* SBJsonBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C26A9A3215C7059E00057AD4 /* SBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = C26A9A2515C7059E00057AD4 /* SBJsonBase.h */; };
+		C26A9A3315C7059E00057AD4 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C26A9A2615C7059E00057AD4 /* SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C26A9A3415C7059E00057AD4 /* SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = C26A9A2715C7059E00057AD4 /* SBJSON.h */; };
+		C26A9A3515C7059E00057AD4 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C26A9A2815C7059E00057AD4 /* NSString+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C26A9A3615C7059E00057AD4 /* NSString+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = C26A9A2915C7059E00057AD4 /* NSString+SBJSON.h */; };
+		C26A9A3715C7059E00057AD4 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C26A9A2A15C7059E00057AD4 /* NSObject+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C26A9A3815C7059E00057AD4 /* NSObject+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = C26A9A2B15C7059E00057AD4 /* NSObject+SBJSON.h */; };
+		C26A9A3915C7059E00057AD4 /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = C26A9A2C15C7059E00057AD4 /* JSON.h */; };
+		C26A9A3B15C705DC00057AD4 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = C26A9A2015C7059E00057AD4 /* SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C26A9A3C15C705DC00057AD4 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C26A9A2215C7059E00057AD4 /* SBJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C26A9A3D15C705DC00057AD4 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C26A9A2415C7059E00057AD4 /* SBJsonBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C26A9A3E15C705DC00057AD4 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C26A9A2615C7059E00057AD4 /* SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C26A9A3F15C705DC00057AD4 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C26A9A2815C7059E00057AD4 /* NSString+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C26A9A4015C705DC00057AD4 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C26A9A2A15C7059E00057AD4 /* NSObject+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C299BE7815C31B9C005BBC3A /* REST.h in Headers */ = {isa = PBXBuildFile; fileRef = C299BE7615C31B9C005BBC3A /* REST.h */; };
+		C299BE7915C31B9C005BBC3A /* REST.m in Sources */ = {isa = PBXBuildFile; fileRef = C299BE7715C31B9C005BBC3A /* REST.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C2DBC6DC15C302C500B7C282 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DBC6DB15C302C500B7C282 /* Foundation.framework */; };
-		C2DBC6E215C302C500B7C282 /* VufindAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DBC6E115C302C500B7C282 /* VufindAPI.m */; };
-		C2DBC6EA15C302C500B7C282 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DBC6E915C302C500B7C282 /* SenTestingKit.framework */; };
 		C2DBC6EC15C302C500B7C282 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DBC6EB15C302C500B7C282 /* UIKit.framework */; };
 		C2DBC6ED15C302C500B7C282 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DBC6DB15C302C500B7C282 /* Foundation.framework */; };
-		C2DBC6F015C302C500B7C282 /* libVufindAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DBC6D815C302C500B7C282 /* libVufindAPI.a */; };
-		C2DBC6F615C302C500B7C282 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2DBC6F415C302C500B7C282 /* InfoPlist.strings */; };
-		C2DBC6F915C302C600B7C282 /* VufindAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DBC6F815C302C600B7C282 /* VufindAPITests.m */; };
+		C2DBC6F015C302C500B7C282 /* libVuGraphSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DBC6D815C302C500B7C282 /* libVuGraphSDK.a */; };
+		C2F2121115C823D000DDBB4E /* VU_OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F2120F15C823D000DDBB4E /* VU_OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C2F2121215C823D000DDBB4E /* VU_OpenUDID.h in Headers */ = {isa = PBXBuildFile; fileRef = C2F2121015C823D000DDBB4E /* VU_OpenUDID.h */; };
+		C2F2121415C8263800DDBB4E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F2121315C8263800DDBB4E /* CoreLocation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		C2F2121915C84C3000DDBB4E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F2121315C8263800DDBB4E /* CoreLocation.framework */; };
+		C2F2122315C86C1A00DDBB4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F2122215C86C1A00DDBB4E /* UIKit.framework */; };
+		C2F2122515C86CC300DDBB4E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F2122415C86CC300DDBB4E /* SystemConfiguration.framework */; };
+		C2F2122615C86ECF00DDBB4E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F2122415C86CC300DDBB4E /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,18 +60,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C2DBC6D815C302C500B7C282 /* libVufindAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVufindAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23710B715C980D4004EFD4D /* VugraphAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VugraphAPI.h; path = VugraphAPI/VugraphAPI.h; sourceTree = SOURCE_ROOT; };
+		C23710B815C980D4004EFD4D /* VugraphAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VugraphAPI.m; path = VugraphAPI/VugraphAPI.m; sourceTree = SOURCE_ROOT; };
+		C23710BC15C980EF004EFD4D /* VuGraphSDK-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "VuGraphSDK-Prefix.pch"; path = "VugraphAPI/VuGraphSDK-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		C23710BE15C98114004EFD4D /* VugraphAPITests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VugraphAPITests.h; path = VugraphAPITests/VugraphAPITests.h; sourceTree = SOURCE_ROOT; };
+		C23710BF15C98114004EFD4D /* VugraphAPITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VugraphAPITests.m; path = VugraphAPITests/VugraphAPITests.m; sourceTree = SOURCE_ROOT; };
+		C23710C215C98130004EFD4D /* VuGraphSDKTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "VuGraphSDKTests-Info.plist"; path = "VugraphAPITests/VuGraphSDKTests-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C23710C415C9816E004EFD4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = VugraphAPITests/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		C24CE98515C9B9F4006DAF1A /* VugraphExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VugraphExample.h; sourceTree = "<group>"; };
+		C24CE98615C9B9F4006DAF1A /* VugraphExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VugraphExample.m; sourceTree = "<group>"; };
+		C26A9A2015C7059E00057AD4 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		C26A9A2115C7059E00057AD4 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		C26A9A2215C7059E00057AD4 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		C26A9A2315C7059E00057AD4 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		C26A9A2415C7059E00057AD4 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		C26A9A2515C7059E00057AD4 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		C26A9A2615C7059E00057AD4 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		C26A9A2715C7059E00057AD4 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		C26A9A2815C7059E00057AD4 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		C26A9A2915C7059E00057AD4 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		C26A9A2A15C7059E00057AD4 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		C26A9A2B15C7059E00057AD4 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		C26A9A2C15C7059E00057AD4 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		C299BE7615C31B9C005BBC3A /* REST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REST.h; sourceTree = "<group>"; };
+		C299BE7715C31B9C005BBC3A /* REST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REST.m; sourceTree = "<group>"; };
+		C2DBC6D815C302C500B7C282 /* libVuGraphSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVuGraphSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2DBC6DB15C302C500B7C282 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C2DBC6DF15C302C500B7C282 /* VufindAPI-Prefix.pch */ = {isa = PBXFileReference; path = "VufindAPI-Prefix.pch"; sourceTree = "<group>"; };
-		C2DBC6E015C302C500B7C282 /* VufindAPI.h */ = {isa = PBXFileReference; path = VufindAPI.h; sourceTree = "<group>"; };
-		C2DBC6E115C302C500B7C282 /* VufindAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VufindAPI.m; sourceTree = "<group>"; };
-		C2DBC6E815C302C500B7C282 /* VufindAPITests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VufindAPITests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2DBC6E815C302C500B7C282 /* VuGraphSDKTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VuGraphSDKTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2DBC6E915C302C500B7C282 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		C2DBC6EB15C302C500B7C282 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C2DBC6F315C302C500B7C282 /* VufindAPITests-Info.plist */ = {isa = PBXFileReference; path = "VufindAPITests-Info.plist"; sourceTree = "<group>"; };
-		C2DBC6F515C302C500B7C282 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C2DBC6F715C302C600B7C282 /* VufindAPITests.h */ = {isa = PBXFileReference; path = VufindAPITests.h; sourceTree = "<group>"; };
-		C2DBC6F815C302C600B7C282 /* VufindAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VufindAPITests.m; sourceTree = "<group>"; };
+		C2F2120F15C823D000DDBB4E /* VU_OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VU_OpenUDID.m; path = ../OpenUDID/VU_OpenUDID.m; sourceTree = "<group>"; };
+		C2F2121015C823D000DDBB4E /* VU_OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VU_OpenUDID.h; path = ../OpenUDID/VU_OpenUDID.h; sourceTree = "<group>"; };
+		C2F2121315C8263800DDBB4E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C2F2122215C86C1A00DDBB4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C2F2122415C86CC300DDBB4E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +101,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2F2122515C86CC300DDBB4E /* SystemConfiguration.framework in Frameworks */,
+				C2F2122315C86C1A00DDBB4E /* UIKit.framework in Frameworks */,
+				C2F2121415C8263800DDBB4E /* CoreLocation.framework in Frameworks */,
 				C2DBC6DC15C302C500B7C282 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,21 +112,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2DBC6EA15C302C500B7C282 /* SenTestingKit.framework in Frameworks */,
+				C23710C915C985C1004EFD4D /* SenTestingKit.framework in Frameworks */,
+				C2F2122615C86ECF00DDBB4E /* SystemConfiguration.framework in Frameworks */,
+				C2F2121915C84C3000DDBB4E /* CoreLocation.framework in Frameworks */,
 				C2DBC6EC15C302C500B7C282 /* UIKit.framework in Frameworks */,
 				C2DBC6ED15C302C500B7C282 /* Foundation.framework in Frameworks */,
-				C2DBC6F015C302C500B7C282 /* libVufindAPI.a in Frameworks */,
+				C2DBC6F015C302C500B7C282 /* libVuGraphSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C247303815C6DA62003DB5E0 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				C26A9A2015C7059E00057AD4 /* SBJsonWriter.m */,
+				C26A9A2115C7059E00057AD4 /* SBJsonWriter.h */,
+				C26A9A2215C7059E00057AD4 /* SBJsonParser.m */,
+				C26A9A2315C7059E00057AD4 /* SBJsonParser.h */,
+				C26A9A2415C7059E00057AD4 /* SBJsonBase.m */,
+				C26A9A2515C7059E00057AD4 /* SBJsonBase.h */,
+				C26A9A2615C7059E00057AD4 /* SBJSON.m */,
+				C26A9A2715C7059E00057AD4 /* SBJSON.h */,
+				C26A9A2815C7059E00057AD4 /* NSString+SBJSON.m */,
+				C26A9A2915C7059E00057AD4 /* NSString+SBJSON.h */,
+				C26A9A2A15C7059E00057AD4 /* NSObject+SBJSON.m */,
+				C26A9A2B15C7059E00057AD4 /* NSObject+SBJSON.h */,
+				C26A9A2C15C7059E00057AD4 /* JSON.h */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		C24CE98415C9B9C4006DAF1A /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				C24CE98515C9B9F4006DAF1A /* VugraphExample.h */,
+				C24CE98615C9B9F4006DAF1A /* VugraphExample.m */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
 		C2DBC6CD15C302C500B7C282 = {
 			isa = PBXGroup;
 			children = (
-				C2DBC6DD15C302C500B7C282 /* VufindAPI */,
-				C2DBC6F115C302C500B7C282 /* VufindAPITests */,
+				C24CE98415C9B9C4006DAF1A /* Example */,
+				C2F2122415C86CC300DDBB4E /* SystemConfiguration.framework */,
+				C2F2122215C86C1A00DDBB4E /* UIKit.framework */,
+				C2F2121315C8263800DDBB4E /* CoreLocation.framework */,
+				C2F2120D15C823AF00DDBB4E /* OpenUDID */,
+				C247303815C6DA62003DB5E0 /* JSON */,
+				C2DBC70615C30D0A00B7C282 /* REST */,
+				C2DBC6DD15C302C500B7C282 /* VugraphAPI */,
+				C2DBC6F115C302C500B7C282 /* VugraphAPITests */,
 				C2DBC6DA15C302C500B7C282 /* Frameworks */,
 				C2DBC6D915C302C500B7C282 /* Products */,
 			);
@@ -78,8 +173,8 @@
 		C2DBC6D915C302C500B7C282 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C2DBC6D815C302C500B7C282 /* libVufindAPI.a */,
-				C2DBC6E815C302C500B7C282 /* VufindAPITests.octest */,
+				C2DBC6D815C302C500B7C282 /* libVuGraphSDK.a */,
+				C2DBC6E815C302C500B7C282 /* VuGraphSDKTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,41 +189,61 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C2DBC6DD15C302C500B7C282 /* VufindAPI */ = {
+		C2DBC6DD15C302C500B7C282 /* VugraphAPI */ = {
 			isa = PBXGroup;
 			children = (
-				C2DBC6E015C302C500B7C282 /* VufindAPI.h */,
-				C2DBC6E115C302C500B7C282 /* VufindAPI.m */,
+				C23710B715C980D4004EFD4D /* VugraphAPI.h */,
+				C23710B815C980D4004EFD4D /* VugraphAPI.m */,
 				C2DBC6DE15C302C500B7C282 /* Supporting Files */,
 			);
+			name = VugraphAPI;
 			path = VufindAPI;
 			sourceTree = "<group>";
 		};
 		C2DBC6DE15C302C500B7C282 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C2DBC6DF15C302C500B7C282 /* VufindAPI-Prefix.pch */,
+				C23710BC15C980EF004EFD4D /* VuGraphSDK-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C2DBC6F115C302C500B7C282 /* VufindAPITests */ = {
+		C2DBC6F115C302C500B7C282 /* VugraphAPITests */ = {
 			isa = PBXGroup;
 			children = (
-				C2DBC6F715C302C600B7C282 /* VufindAPITests.h */,
-				C2DBC6F815C302C600B7C282 /* VufindAPITests.m */,
+				C23710BE15C98114004EFD4D /* VugraphAPITests.h */,
+				C23710BF15C98114004EFD4D /* VugraphAPITests.m */,
 				C2DBC6F215C302C500B7C282 /* Supporting Files */,
 			);
+			name = VugraphAPITests;
 			path = VufindAPITests;
 			sourceTree = "<group>";
 		};
 		C2DBC6F215C302C500B7C282 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C2DBC6F315C302C500B7C282 /* VufindAPITests-Info.plist */,
-				C2DBC6F415C302C500B7C282 /* InfoPlist.strings */,
+				C23710C315C9816E004EFD4D /* InfoPlist.strings */,
+				C23710C215C98130004EFD4D /* VuGraphSDKTests-Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2DBC70615C30D0A00B7C282 /* REST */ = {
+			isa = PBXGroup;
+			children = (
+				C299BE7615C31B9C005BBC3A /* REST.h */,
+				C299BE7715C31B9C005BBC3A /* REST.m */,
+			);
+			name = REST;
+			sourceTree = "<group>";
+		};
+		C2F2120D15C823AF00DDBB4E /* OpenUDID */ = {
+			isa = PBXGroup;
+			children = (
+				C2F2120F15C823D000DDBB4E /* VU_OpenUDID.m */,
+				C2F2121015C823D000DDBB4E /* VU_OpenUDID.h */,
+			);
+			name = OpenUDID;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,15 +253,28 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C299BE7815C31B9C005BBC3A /* REST.h in Headers */,
+				C26A9A2E15C7059E00057AD4 /* SBJsonWriter.h in Headers */,
+				C26A9A3015C7059E00057AD4 /* SBJsonParser.h in Headers */,
+				C26A9A3215C7059E00057AD4 /* SBJsonBase.h in Headers */,
+				C26A9A3415C7059E00057AD4 /* SBJSON.h in Headers */,
+				C26A9A3615C7059E00057AD4 /* NSString+SBJSON.h in Headers */,
+				C26A9A3815C7059E00057AD4 /* NSObject+SBJSON.h in Headers */,
+				C26A9A3915C7059E00057AD4 /* JSON.h in Headers */,
+				C2F2121215C823D000DDBB4E /* VU_OpenUDID.h in Headers */,
+				C23710B915C980D4004EFD4D /* VugraphAPI.h in Headers */,
+				C23710BD15C980EF004EFD4D /* VuGraphSDK-Prefix.pch in Headers */,
+				C23710C015C98114004EFD4D /* VugraphAPITests.h in Headers */,
+				C24CE98715C9B9F4006DAF1A /* VugraphExample.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C2DBC6D715C302C500B7C282 /* VufindAPI */ = {
+		C2DBC6D715C302C500B7C282 /* VuGraphSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2DBC6FC15C302C600B7C282 /* Build configuration list for PBXNativeTarget "VufindAPI" */;
+			buildConfigurationList = C2DBC6FC15C302C600B7C282 /* Build configuration list for PBXNativeTarget "VuGraphSDK" */;
 			buildPhases = (
 				C2DBC6D415C302C500B7C282 /* Sources */,
 				C2DBC6D515C302C500B7C282 /* Frameworks */,
@@ -156,14 +284,14 @@
 			);
 			dependencies = (
 			);
-			name = VufindAPI;
+			name = VuGraphSDK;
 			productName = VufindAPI;
-			productReference = C2DBC6D815C302C500B7C282 /* libVufindAPI.a */;
+			productReference = C2DBC6D815C302C500B7C282 /* libVuGraphSDK.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		C2DBC6E715C302C500B7C282 /* VufindAPITests */ = {
+		C2DBC6E715C302C500B7C282 /* VuGraphSDKTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2DBC6FF15C302C600B7C282 /* Build configuration list for PBXNativeTarget "VufindAPITests" */;
+			buildConfigurationList = C2DBC6FF15C302C600B7C282 /* Build configuration list for PBXNativeTarget "VuGraphSDKTests" */;
 			buildPhases = (
 				C2DBC6E315C302C500B7C282 /* Sources */,
 				C2DBC6E415C302C500B7C282 /* Frameworks */,
@@ -175,9 +303,9 @@
 			dependencies = (
 				C2DBC6EF15C302C500B7C282 /* PBXTargetDependency */,
 			);
-			name = VufindAPITests;
+			name = VuGraphSDKTests;
 			productName = VufindAPITests;
-			productReference = C2DBC6E815C302C500B7C282 /* VufindAPITests.octest */;
+			productReference = C2DBC6E815C302C500B7C282 /* VuGraphSDKTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -188,7 +316,7 @@
 			attributes = {
 				LastUpgradeCheck = 0420;
 			};
-			buildConfigurationList = C2DBC6D215C302C500B7C282 /* Build configuration list for PBXProject "VufindAPI" */;
+			buildConfigurationList = C2DBC6D215C302C500B7C282 /* Build configuration list for PBXProject "VuGraphSDK" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -200,8 +328,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C2DBC6D715C302C500B7C282 /* VufindAPI */,
-				C2DBC6E715C302C500B7C282 /* VufindAPITests */,
+				C2DBC6D715C302C500B7C282 /* VuGraphSDK */,
+				C2DBC6E715C302C500B7C282 /* VuGraphSDKTests */,
 			);
 		};
 /* End PBXProject section */
@@ -211,7 +339,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2DBC6F615C302C500B7C282 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +365,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2DBC6E215C302C500B7C282 /* VufindAPI.m in Sources */,
+				C299BE7915C31B9C005BBC3A /* REST.m in Sources */,
+				C26A9A2D15C7059E00057AD4 /* SBJsonWriter.m in Sources */,
+				C26A9A2F15C7059E00057AD4 /* SBJsonParser.m in Sources */,
+				C26A9A3115C7059E00057AD4 /* SBJsonBase.m in Sources */,
+				C26A9A3315C7059E00057AD4 /* SBJSON.m in Sources */,
+				C26A9A3515C7059E00057AD4 /* NSString+SBJSON.m in Sources */,
+				C26A9A3715C7059E00057AD4 /* NSObject+SBJSON.m in Sources */,
+				C2F2121115C823D000DDBB4E /* VU_OpenUDID.m in Sources */,
+				C23710BA15C980D4004EFD4D /* VugraphAPI.m in Sources */,
+				C24CE98815C9B9F4006DAF1A /* VugraphExample.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +382,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2DBC6F915C302C600B7C282 /* VufindAPITests.m in Sources */,
+				C24CE97F15C986A7006DAF1A /* VugraphAPITests.m in Sources */,
+				C26A9A3B15C705DC00057AD4 /* SBJsonWriter.m in Sources */,
+				C26A9A3C15C705DC00057AD4 /* SBJsonParser.m in Sources */,
+				C26A9A3D15C705DC00057AD4 /* SBJsonBase.m in Sources */,
+				C26A9A3E15C705DC00057AD4 /* SBJSON.m in Sources */,
+				C26A9A3F15C705DC00057AD4 /* NSString+SBJSON.m in Sources */,
+				C26A9A4015C705DC00057AD4 /* NSObject+SBJSON.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,16 +397,16 @@
 /* Begin PBXTargetDependency section */
 		C2DBC6EF15C302C500B7C282 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C2DBC6D715C302C500B7C282 /* VufindAPI */;
+			target = C2DBC6D715C302C500B7C282 /* VuGraphSDK */;
 			targetProxy = C2DBC6EE15C302C500B7C282 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C2DBC6F415C302C500B7C282 /* InfoPlist.strings */ = {
+		C23710C315C9816E004EFD4D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C2DBC6F515C302C500B7C282 /* en */,
+				C23710C415C9816E004EFD4D /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -319,9 +461,12 @@
 			buildSettings = {
 				DSTROOT = /tmp/VufindAPI.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VufindAPI/VufindAPI-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "VugraphAPI/VuGraphSDK-Prefix.pch";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = VuGraphSDK;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -331,9 +476,9 @@
 			buildSettings = {
 				DSTROOT = /tmp/VufindAPI.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VufindAPI/VufindAPI-Prefix.pch";
+				GCC_PREFIX_HEADER = "VugraphAPI/VuGraphSDK-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = VuGraphSDK;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -346,9 +491,9 @@
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VufindAPI/VufindAPI-Prefix.pch";
-				INFOPLIST_FILE = "VufindAPITests/VufindAPITests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "VugraphAPI/VuGraphSDK-Prefix.pch";
+				INFOPLIST_FILE = "VugraphAPITests/VuGraphSDKTests-Info.plist";
+				PRODUCT_NAME = VuGraphSDKTests;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -361,9 +506,9 @@
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VufindAPI/VufindAPI-Prefix.pch";
-				INFOPLIST_FILE = "VufindAPITests/VufindAPITests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "VugraphAPI/VuGraphSDK-Prefix.pch";
+				INFOPLIST_FILE = "VugraphAPITests/VuGraphSDKTests-Info.plist";
+				PRODUCT_NAME = VuGraphSDKTests;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
@@ -371,7 +516,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C2DBC6D215C302C500B7C282 /* Build configuration list for PBXProject "VufindAPI" */ = {
+		C2DBC6D215C302C500B7C282 /* Build configuration list for PBXProject "VuGraphSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2DBC6FA15C302C600B7C282 /* Debug */,
@@ -380,21 +525,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2DBC6FC15C302C600B7C282 /* Build configuration list for PBXNativeTarget "VufindAPI" */ = {
+		C2DBC6FC15C302C600B7C282 /* Build configuration list for PBXNativeTarget "VuGraphSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2DBC6FD15C302C600B7C282 /* Debug */,
 				C2DBC6FE15C302C600B7C282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		C2DBC6FF15C302C600B7C282 /* Build configuration list for PBXNativeTarget "VufindAPITests" */ = {
+		C2DBC6FF15C302C600B7C282 /* Build configuration list for PBXNativeTarget "VuGraphSDKTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2DBC70015C302C600B7C282 /* Debug */,
 				C2DBC70115C302C600B7C282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
