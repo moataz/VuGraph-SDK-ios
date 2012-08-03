@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C22BB66115CC4DA400E51001 /* VU_OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = C22BB65F15CC4DA400E51001 /* VU_OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C22BB66215CC4DA400E51001 /* VU_OpenUDID.h in Headers */ = {isa = PBXBuildFile; fileRef = C22BB66015CC4DA400E51001 /* VU_OpenUDID.h */; };
 		C23710B915C980D4004EFD4D /* VugraphAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = C23710B715C980D4004EFD4D /* VugraphAPI.h */; };
 		C23710BA15C980D4004EFD4D /* VugraphAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C23710B815C980D4004EFD4D /* VugraphAPI.m */; };
 		C23710BD15C980EF004EFD4D /* VuGraphSDK-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = C23710BC15C980EF004EFD4D /* VuGraphSDK-Prefix.pch */; };
@@ -40,8 +42,6 @@
 		C2DBC6EC15C302C500B7C282 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DBC6EB15C302C500B7C282 /* UIKit.framework */; };
 		C2DBC6ED15C302C500B7C282 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DBC6DB15C302C500B7C282 /* Foundation.framework */; };
 		C2DBC6F015C302C500B7C282 /* libVuGraphSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DBC6D815C302C500B7C282 /* libVuGraphSDK.a */; };
-		C2F2121115C823D000DDBB4E /* VU_OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F2120F15C823D000DDBB4E /* VU_OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C2F2121215C823D000DDBB4E /* VU_OpenUDID.h in Headers */ = {isa = PBXBuildFile; fileRef = C2F2121015C823D000DDBB4E /* VU_OpenUDID.h */; };
 		C2F2121415C8263800DDBB4E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F2121315C8263800DDBB4E /* CoreLocation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		C2F2121915C84C3000DDBB4E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F2121315C8263800DDBB4E /* CoreLocation.framework */; };
 		C2F2122315C86C1A00DDBB4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F2122215C86C1A00DDBB4E /* UIKit.framework */; };
@@ -60,6 +60,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C22BB65F15CC4DA400E51001 /* VU_OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VU_OpenUDID.m; path = OpenUDID/VU_OpenUDID.m; sourceTree = "<group>"; };
+		C22BB66015CC4DA400E51001 /* VU_OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VU_OpenUDID.h; path = OpenUDID/VU_OpenUDID.h; sourceTree = "<group>"; };
 		C23710B715C980D4004EFD4D /* VugraphAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VugraphAPI.h; path = VugraphAPI/VugraphAPI.h; sourceTree = SOURCE_ROOT; };
 		C23710B815C980D4004EFD4D /* VugraphAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VugraphAPI.m; path = VugraphAPI/VugraphAPI.m; sourceTree = SOURCE_ROOT; };
 		C23710BC15C980EF004EFD4D /* VuGraphSDK-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "VuGraphSDK-Prefix.pch"; path = "VugraphAPI/VuGraphSDK-Prefix.pch"; sourceTree = SOURCE_ROOT; };
@@ -89,8 +91,6 @@
 		C2DBC6E815C302C500B7C282 /* VuGraphSDKTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VuGraphSDKTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2DBC6E915C302C500B7C282 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		C2DBC6EB15C302C500B7C282 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C2F2120F15C823D000DDBB4E /* VU_OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VU_OpenUDID.m; path = ../OpenUDID/VU_OpenUDID.m; sourceTree = "<group>"; };
-		C2F2121015C823D000DDBB4E /* VU_OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VU_OpenUDID.h; path = ../OpenUDID/VU_OpenUDID.h; sourceTree = "<group>"; };
 		C2F2121315C8263800DDBB4E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		C2F2122215C86C1A00DDBB4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C2F2122415C86CC300DDBB4E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -240,8 +240,8 @@
 		C2F2120D15C823AF00DDBB4E /* OpenUDID */ = {
 			isa = PBXGroup;
 			children = (
-				C2F2120F15C823D000DDBB4E /* VU_OpenUDID.m */,
-				C2F2121015C823D000DDBB4E /* VU_OpenUDID.h */,
+				C22BB65F15CC4DA400E51001 /* VU_OpenUDID.m */,
+				C22BB66015CC4DA400E51001 /* VU_OpenUDID.h */,
 			);
 			name = OpenUDID;
 			sourceTree = "<group>";
@@ -261,11 +261,11 @@
 				C26A9A3615C7059E00057AD4 /* NSString+SBJSON.h in Headers */,
 				C26A9A3815C7059E00057AD4 /* NSObject+SBJSON.h in Headers */,
 				C26A9A3915C7059E00057AD4 /* JSON.h in Headers */,
-				C2F2121215C823D000DDBB4E /* VU_OpenUDID.h in Headers */,
 				C23710B915C980D4004EFD4D /* VugraphAPI.h in Headers */,
 				C23710BD15C980EF004EFD4D /* VuGraphSDK-Prefix.pch in Headers */,
 				C23710C015C98114004EFD4D /* VugraphAPITests.h in Headers */,
 				C24CE98715C9B9F4006DAF1A /* VugraphExample.h in Headers */,
+				C22BB66215CC4DA400E51001 /* VU_OpenUDID.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,9 +372,9 @@
 				C26A9A3315C7059E00057AD4 /* SBJSON.m in Sources */,
 				C26A9A3515C7059E00057AD4 /* NSString+SBJSON.m in Sources */,
 				C26A9A3715C7059E00057AD4 /* NSObject+SBJSON.m in Sources */,
-				C2F2121115C823D000DDBB4E /* VU_OpenUDID.m in Sources */,
 				C23710BA15C980D4004EFD4D /* VugraphAPI.m in Sources */,
 				C24CE98815C9B9F4006DAF1A /* VugraphExample.m in Sources */,
+				C22BB66115CC4DA400E51001 /* VU_OpenUDID.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
